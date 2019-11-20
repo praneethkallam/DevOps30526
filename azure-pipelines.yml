@@ -26,4 +26,6 @@ steps:
   inputs:
     scriptSource: 'inline'
     script: |
+      import time
+      l_time=time.ctime()
       print('local time here is : ',l_time)
